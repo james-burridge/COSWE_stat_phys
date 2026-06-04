@@ -77,14 +77,14 @@ The core dataset released with this paper: inferred MAP state field arrays for a
 
 Each array gives the smoothed variant frequency distribution across the USA at annual resolution, as inferred by the Bayesian GP method (§2). These fields are the input to all subsequent modelling (§3–4).
 
-| Q | COSWE question | Variants (K) | File |
-|---|----------------|:---:|------|
-| 2 | What is your generic casual or informal term for a sweetened carbonated beverage? | 3 | `v_4_soda_pop_coke_4000_demes_tau_44_sigma_323_alpha_0.45_var_1.2_start_1950_end_2000.npy` |
-| 3 | What is your general, informal term for the rubber-soled shoes worn in gym class, for athletic activities, etc.? | 2 | `v_4_tennis_sneakers_4000_demes_tau_28_sigma_304_alpha_0.07_var_1.0_start_1950_end_2000.npy` |
-| 4 | What do you call the kind of crustacean that looks like a tiny lobster and lives in lakes and streams? | 3 | `v_4_crawfish_crayfish_crawdad_4000_demes_tau_33_sigma_341_alpha_0.50_var_1.2_start_1950_end_2000.npy` |
-| 5 | What word(s) do you use in casual speech to address a group of two or more people? | 2 | `v_4_you-guys_you-all_4000_demes_tau_45_sigma_354_alpha_0.00_var_1.0_start_1950_end_2000.npy` |
-| 6 | What do you call the little gray (or black or brown) creature (that looks like an insect but is actually a crustacean) that rolls up into a ball when you touch it? | 2 | `v_4_roly_bug_4000_demes_tau_50_sigma_305_alpha_0.06_var_1.2_start_1950_end_2000.npy` |
-| 7 | What do you call the kind of rain that falls while the sun is shining? | 2 | `v_4_sunshower_devil_4000_demes_tau_50_sigma_318_alpha_0.18_var_1.1_start_1950_end_2000.npy` |
+| Q | COSWE question | Variants (K) |
+|---|----------------|:---:|
+| 2 | What is your generic casual or informal term for a sweetened carbonated beverage? | 3 |
+| 3 | What is your general, informal term for the rubber-soled shoes worn in gym class, for athletic activities, etc.? | 2 |
+| 4 | What do you call the kind of crustacean that looks like a tiny lobster and lives in lakes and streams? | 3 |
+| 5 | What word(s) do you use in casual speech to address a group of two or more people? | 2 |
+| 6 | What do you call the little gray (or black or brown) creature (that looks like an insect but is actually a crustacean) that rolls up into a ball when you touch it? | 2 |
+| 7 | What do you call the kind of rain that falls while the sun is shining? | 2 |
 
 File names encode the fitted GP hyperparameters (τ: temporal length scale in years, σ: spatial length scale in km, α: nugget, κ: marginal variance).
 
