@@ -77,14 +77,14 @@ The core dataset released with this paper: inferred MAP state field arrays for a
 
 Each array gives the smoothed variant frequency distribution across the USA at annual resolution, as inferred by the Bayesian GP method (§2). These fields are the input to all subsequent modelling (§3–4).
 
-| Q | COSWE question | Variants (K) |
-|---|----------------|:---:|
-| 2 | What is your generic casual or informal term for a sweetened carbonated beverage? | 3 |
-| 3 | What is your general, informal term for the rubber-soled shoes worn in gym class, for athletic activities, etc.? | 2 |
-| 4 | What do you call the kind of crustacean that looks like a tiny lobster and lives in lakes and streams? | 3 |
-| 5 | What word(s) do you use in casual speech to address a group of two or more people? | 2 |
-| 6 | What do you call the little gray (or black or brown) creature (that looks like an insect but is actually a crustacean) that rolls up into a ball when you touch it? | 2 |
-| 7 | What do you call the kind of rain that falls while the sun is shining? | 2 |
+| Q | COSWE question | Variants |
+|---|----------------|----------|
+| 2 | What is your generic casual or informal term for a sweetened carbonated beverage? | soda, pop, coke |
+| 3 | What is your general, informal term for the rubber-soled shoes worn in gym class, for athletic activities, etc.? | tennis shoes, sneakers |
+| 4 | What do you call the kind of crustacean that looks like a tiny lobster and lives in lakes and streams? | crawfish, crayfish, crawdad |
+| 5 | What word(s) do you use in casual speech to address a group of two or more people? | you guys, you all |
+| 6 | What do you call the little gray (or black or brown) creature (that looks like an insect but is actually a crustacean) that rolls up into a ball when you touch it? | roly-poly, pill bug |
+| 7 | What do you call the kind of rain that falls while the sun is shining? | sunshower, devil beating his wife |
 
 File names encode the fitted GP hyperparameters (τ: temporal length scale in years, σ: spatial length scale in km, α: nugget, κ: marginal variance).
 
