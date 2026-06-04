@@ -28,7 +28,7 @@ REPO/
 │   └── src/            Python source modules imported by the notebooks
 ├── data/
 │   ├── voronois/       4000-cell Voronoi tessellation of mainland USA
-│   ├── demed_variants/ Survey response counts per deme per year (CSVs, Q2–Q7)
+│   ├── demed_variants/ Example survey response counts (Q2 only)
 │   └── probability_fields/  Inferred MAP state fields (.npy, 4000 demes × 51 years)
 └── figures/            Key figures from the paper
 ```
@@ -54,10 +54,6 @@ REPO/
 
 ## Data
 
-### Survey data
-
-The raw COSWE survey data are not publicly available. They may be obtained from Bert Vaux (University of Cambridge) upon reasonable request; see the [COSWE project page](https://www.tekstlab.uio.no/cambridge_survey/). Once obtained, the data are processed into the `data/demed_variants/` CSVs using the scripts in the source repository.
-
 ### `data/voronois/`
 
 | File | Description |
@@ -67,7 +63,7 @@ The raw COSWE survey data are not publicly available. They may be obtained from 
 
 ### `data/demed_variants/`
 
-Variant response counts aggregated to 4000 Voronoi cells. The full dataset is derived from private COSWE survey data and is not publicly distributed. One example file (`Q2_soda_pop_coke`) is included to illustrate the data format and enable the GP fitting notebook to be run.
+One example file (`Q2_soda_pop_coke`) is included to illustrate the data format and enable the GP fitting notebook to be run.
 
 Each CSV has columns `deme_id`, `year`, and one column per variant, containing response counts for respondents born in each year 1950–2000.
 
