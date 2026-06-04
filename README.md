@@ -26,11 +26,10 @@ REPO/
 ├── code/
 │   ├── notebooks/      Section notebooks (executable, self-contained)
 │   └── src/            Python source modules imported by the notebooks
-├── data/
-│   ├── voronois/       4000-cell Voronoi tessellation of mainland USA
-│   ├── demed_variants/ Example survey response counts (Q2 only)
-│   └── probability_fields/  Inferred MAP state fields (.npy, 4000 demes × 51 years)
-└── figures/            Key figures from the paper
+└── data/
+    ├── voronois/       4000-cell Voronoi tessellation of mainland USA
+    ├── demed_variants/ Example survey response counts (Q2 only)
+    └── probability_fields/  Inferred MAP state fields (.npy, 4000 demes × 51 years)
 ```
 
 ## Code
