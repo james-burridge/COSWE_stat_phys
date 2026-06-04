@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Claude
+.claude/
+CLAUDE_SESSION_*.md
+
+# Survey data — demed_variants CSVs derived from private COSWE data
+# Q2 (soda/pop/coke) is included as a release example; Q3–Q7 are excluded
+data/demed_variants/Q3_*.csv
+data/demed_variants/Q4_*.csv
+data/demed_variants/Q5_*.csv
+data/demed_variants/Q6_*.csv
+data/demed_variants/Q7_*.csv
+
+# Paper PDFs (copyright)
+docs/
