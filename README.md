@@ -39,16 +39,15 @@ REPO/
 | File | Description |
 |------|-------------|
 | `GP_fitting.py` | MAP estimation for multinomial GP regression — softmax latent field model fitted by L-BFGS-B |
-| `model_inference.py` | Constructs the spatial basis (lifting matrix) from eigenvectors of the degree-normalised Gram matrix at length scale η |
-| `spatial_model.py` | Migration and copying generators; replicator dynamics model class; parameter inference objectives; KL divergence |
+| `spatial_model.py` | Migration and copying generators; replicator dynamics model class; parameter inference objectives; KL divergence; spatial basis (lifting matrix) from eigenvectors of the degree-normalised Gram matrix at length scale η |
 
 ### `code/notebooks/`
 
 | File | Paper section | Description |
 |------|--------------|-------------|
 | `section2_empirical_field_inference.ipynb` | §2 | Demonstrates GP state field inference for one variable; loads and displays pre-computed fields for all six |
-| `section3_state_field_model.ipynb` | §3 | Builds migration and copying generators; generates Figures 5 and 6 |
-| `section4_model_inference.ipynb` | §4 | Infers β and bias fields; generates Figures 7–11 |
+| `section3_state_field_model.ipynb` | §3 | Builds migration and copying generators |
+| `section4_model_inference.ipynb` | §4 | Infers β and bias fields |
 | `additional_checks.ipynb` | — | Additional model checks: in-sample KL divergence as a function of bias field length scale η |
 
 ## Data
@@ -81,7 +80,7 @@ Each array gives the smoothed variant frequency distribution across the USA at a
 | 6 | What do you call the little gray (or black or brown) creature (that looks like an insect but is actually a crustacean) that rolls up into a ball when you touch it? | roly-poly, pill bug |
 | 7 | What do you call the kind of rain that falls while the sun is shining? | sunshower, devil beating his wife |
 
-File names encode the fitted GP hyperparameters (τ: temporal length scale in years, σ: spatial length scale in km, α: nugget, κ: marginal variance).
+File names encode the fitted GP hyperparameters (τ: temporal length scale in years, σ: spatial length scale in km, α: density-dependence exponent, κ: marginal variance).
 
 ## Model summary
 
