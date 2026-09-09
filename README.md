@@ -49,6 +49,7 @@ REPO/
 | `section3_state_field_model.ipynb` | §3 | Builds migration and copying generators |
 | `section4_model_inference.ipynb` | §4 | Infers β and bias fields |
 | `additional_checks.ipynb` | — | Additional model checks: in-sample KL divergence as a function of bias field length scale η |
+| `section4_J_sensitivity.ipynb` | §3(b)/§4 | Sensitivity of fitted β, in-sample/forecast fit quality, and self-consistent isogloss width to the copying rate J |
 
 ## Data
 
