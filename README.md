@@ -58,7 +58,7 @@ REPO/
 | File | Description |
 |------|-------------|
 | `Voronoi_4000_raw_kmeans_demes.gpkg` | GeoPackage of the 4000-cell Voronoi tessellation used throughout the paper. Cells are seeded by centroids of k-means clusters of mainland US ZIP codes weighted by 2020 Census population |
-| `zip_codes.csv` | ZIP code coordinates and populations used to construct the tessellation |
+| `zip_codes.csv` | ZIP code coordinates and populations used to construct the tessellation. Coordinates and 2020 Census-based populations come from a publicly available US ZIP code database; the projected `x`, `y` columns were added by the authors |
 
 ### `data/demed_variants/`
 

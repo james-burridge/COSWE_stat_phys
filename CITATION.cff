@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite it as below."
+title: "Code and data for: Statistical physics of language change inferred from time evolving maps"
+type: software
+authors:
+  - family-names: Burridge
+    given-names: James
+    orcid: "https://orcid.org/0000-0001-6067-4187"
+    affiliation: "School of Mathematics and Physics, University of Portsmouth"
+  - family-names: Vaux
+    given-names: Bert
+    affiliation: "Department of Theoretical & Applied Linguistics, University of Cambridge"
+repository-code: "https://github.com/james-burridge/COSWE_stat_phys"
+license: MIT
+keywords:
+  - language change
+  - statistical physics
+  - Gaussian process
+  - dialect variation
